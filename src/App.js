@@ -1,11 +1,12 @@
 import './App.css';
+import { Curriculum } from './components/Curriculum';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>APRENDE CONMIGO</h1>
-      </header>
+      <div>
+        <Curriculum />
+      </div>
     </div>
   );
 }
