@@ -1,13 +1,12 @@
 import './App.css';
 import { Curriculum } from './components/Curriculum';
+import { MisRutas } from './router/MisRutas';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Curriculum />
-      </div>
-    </div>
+    <>
+      <MisRutas/>
+    </>
   );
 }
 
