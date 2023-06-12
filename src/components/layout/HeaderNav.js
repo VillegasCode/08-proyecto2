@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const HeaderNav = () => {
   return (
-    <header>
+    <header className='header'>
         <h1>
             ALEX VILLEGAS HEADER
         </h1>
