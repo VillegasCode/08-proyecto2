@@ -4,7 +4,8 @@ export const trabajos = [
         'nombre': 'Alex Villegas',
         'url': 'empresarioencasa.org',
         'tecnologias': 'HTML, CSS, JS, PHP, MYSQL',
-        'categorias': 'Desarrollo Web'
+        'categorias': 'Desarrollo Web',
+        'descripcion': 'The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.)'
    },
 
    {
@@ -12,22 +13,25 @@ export const trabajos = [
     'nombre': 'Facebook',
     'url': 'facebook.com',
     'tecnologias': 'React, Node, Mongo',
-    'categorias': 'Desarrollo Web'
+    'categorias': 'Redes Sociales',
+    'descripcion': 'The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.)'
     },
 
     {
         'id': 'twitter',
-        'nombre': 'Facebook',
-        'url': 'facebook.com',
+        'nombre': 'Twitter',
+        'url': 'twitter.com',
         'tecnologias': 'React, Node, Mongo',
-        'categorias': 'Desarrollo Web'
+        'categorias': 'Redes Sociales actuales',
+        'descripcion': 'The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.)'
         },
 
     {
             'id': 'LinkedIn',
-            'nombre': 'Facebook',
-            'url': 'facebook.com',
+            'nombre': 'LinkedIn',
+            'url': 'linkedin.com',
             'tecnologias': 'React, Node, Mongo',
-            'categorias': 'Desarrollo Web'
+            'categorias': 'Redes Profesionales',
+            'descripcion': 'The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.)'
     },
 ];
