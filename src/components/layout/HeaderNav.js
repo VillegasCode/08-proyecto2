@@ -4,9 +4,11 @@ import { NavLink } from 'react-router-dom'
 export const HeaderNav = () => {
   return (
     <header className='header'>
-        <h1>
-            ALEX VILLEGAS HEADER
-        </h1>
+        <div className='logo'>
+            <span>A</span>
+            <h3>ALEX VILLEGAS HEADER</h3>
+        </div>
+        
         <nav>
             <ul>
                 <li>
