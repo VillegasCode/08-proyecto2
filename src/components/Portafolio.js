@@ -8,10 +8,13 @@ export const Portafolio = () => {
     
       {
         trabajos.map(trabajos => {
-          <article>
-            <h2>{trabajos.nombre}</h2>
-            {console.log(trabajos)};
-          </article>
+          return(
+            <article key={trabajos.id}>
+              <span>{trabajos.categorias}</span>
+              <h2><Link to={"/proyecto/"+trabajos.id}>{trabajos.nombre}</Link></h2>
+              <h3>{trabajos.tecnologias}</h3>
+            </article>
+          )
         })
       }
     </div>
