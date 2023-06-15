@@ -6,11 +6,15 @@ export const Portafolio = () => {
   return (
     <div className='page'>
       <h1 className='heading'>PORTAFOLIO</h1>
-    
+
+      <section className='works'>
       {
         trabajos.map(trabajos => {
           return(
-            <article key={trabajos.id}>
+            <article key={trabajos.id} className='work-item'>
+              <div className='mask'>
+                <img src={"/images/"+trabajos.id+".png"} />
+              </div>
               <span>{trabajos.categorias}</span>
               <h2><Link to={"/proyecto/"+trabajos.id}>{trabajos.nombre}</Link></h2>
               <h3>{trabajos.tecnologias}</h3>
@@ -18,6 +22,8 @@ export const Portafolio = () => {
           )
         })
       }
+      </section>
+
     </div>
   )
 }
